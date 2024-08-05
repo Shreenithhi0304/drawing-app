@@ -43,6 +43,29 @@ h1 {
     background-color: #1565c0;
     border: none;
     border-radius: 4px;
-    color:white;
+    color: white;
     padding: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#toolbar button:hover {
+    background-color: #0d47a1;
+}
+
+#toolbar button:active {
+    background-color: #0b3c82;
+}
+
+
+#eraser {
+    background-color: #f44336; 
+}
+
+#eraser:hover {
+    background-color: #e53935;
+}
+
+#eraser:active {
+    background-color: #d32f2f;
 }
